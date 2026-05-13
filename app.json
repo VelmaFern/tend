@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Tend",
+    "slug": "tend-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": false,
+      "bundleIdentifier": "com.tend.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "We need access to your microphone to record voice logs.",
+        "NSCameraUsageDescription": "We need access to your camera to add photos.",
+        "UIRequiredDeviceCapabilities": [
+          "microphone"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.tend.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "tend-app"
+      }
+    },
+    "scheme": "tend"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "tend",
+  "version": "1.0.0",
+  "description": "A relationship maintenance app for people who care deeply",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^17.4.2",
+    "expo": "^51.0.0",
+    "expo-constants": "^16.0.0",
+    "expo-linear-gradient": "^13.0.0",
+    "expo-notifications": "^0.27.0",
+    "react": "18.3.1",
+    "react-native": "0.74.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0"
+  },
+  "private": true
+}

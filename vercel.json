@@ -1,0 +1,5 @@
+{
+  "public": "public",
+  "buildCommand": "echo 'Build complete'",
+  "outputDirectory": "public"
+}
